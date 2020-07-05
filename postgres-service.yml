@@ -12,3 +12,5 @@ spec:
   selector:
      name: postgres-pod
      app: demo-voting-app
+
+# No type specified in spec so this because a cluster ip and remains internal to the cluster.
