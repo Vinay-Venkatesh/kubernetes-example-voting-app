@@ -13,3 +13,5 @@ spec:
   selector:
      name: redis-pod
      app: demo-voting-app
+
+# No type specified in spec so this because a cluster ip and remains internal to the cluster.
